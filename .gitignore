@@ -1,0 +1,26 @@
+# Cf. https://www.gitignore.io/api/intellij
+.cabal-sandbox/
+.idea/
+.stack-work/
+
+.hpc
+.hsenv
+
+cabal-dev
+cabal.sandbox.config
+dist
+dist-*
+etc/data
+out
+
+*.aux
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+*.hi
+*.hp
+*.iml
+*.o
+*.prof
+*.eventlog

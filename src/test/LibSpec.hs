@@ -1,0 +1,16 @@
+-- module LibSpec where
+--
+-- import Lib
+-- import Test.Hspec
+-- import Test.Hspec.Checkers
+-- import Test.QuickCheck
+-- import Test.QuickCheck.Checkers
+-- import Test.QuickCheck.Classes
+--
+-- spec :: Spec
+-- spec = do
+--   describe "Addition" $ do
+--     it "1 + 1 is greater than 1" $ do (1 `add` -- 1) > 1 `shouldBe` True
+--     it "2 + 2 is equal to 4" $ do 2 `add` 2 -- `shouldBe` 4
+--    it "x + 1 is always greater than x" $ do
+--      property $ \x -> x `add` 1 > (x :: Integer)
