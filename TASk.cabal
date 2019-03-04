@@ -1,13 +1,13 @@
 name:                TASk
-version:             0.1.0.0
-synopsis:            <tbd>
+version:             0.1
+synopsis:            task <source> <target>
 description:         Please see README.md
-homepage:            https://github.com/normenmueller/TASk#readme
+homepage:            https://github.com/normenmueller/task#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Normen Müller
 maintainer:          normen.mueller@gmail.com
-copyright:           Copyright: (c) 2018 Normen Müller
+copyright:           Copyright: (c) 2019 Normen Müller
 category:            Simple
 build-type:          Simple
 extra-source-files:  README.md
@@ -36,19 +36,12 @@ executable TASk
 
                      , aeson
                      , bytestring
-                     , mtl
+                     , split
+                     , text
                      , transformers
+                     , unordered-containers
+                     , vector
                      , yaml
-                     -- , containers
-                     -- , directory
-                     -- , filepath
-                     -- , process
-                     -- , optparse-applicative
-                     -- , safe
-                     -- , text
-                     -- , typed-process
-                     -- , unordered-containers
-                     -- , vector
 
 -- test-suite TASk-test
 --   default-language:    Haskell2010
@@ -66,4 +59,4 @@ executable TASk
 
 source-repository head
   type:     git
-  location: https://github.com/normenmueller/TASk
+  location: https://github.com/normenmueller/task
